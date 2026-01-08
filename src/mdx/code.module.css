@@ -1,0 +1,51 @@
+.Box {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.Box_1 {
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--borderColor-muted);
+}
+
+.Box_2 {
+  margin: 0;
+  padding: 16px;
+  overflow-x: auto;
+}
+
+.Box_3 {
+  margin: 0;
+}
+
+.Button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.Button:focus-visible {
+  outline: 2px solid;
+  outline-color: -webkit-focus-ring-color;
+  outline-offset: 1px;
+}
+
+.Text {
+  font-family: var(--fontStack-monospace);
+  font-size: 14px;
+}
+
+.ClipboardCopy {
+  border-radius: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--borderColor-muted);
+  margin-top: -1px;
+  margin-right: -1px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
